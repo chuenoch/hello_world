@@ -42,3 +42,10 @@ header
 {
     border: 1px solid white;
 }
+
+.header
+{
+    float: left;
+    color: white;
+ 
+}
