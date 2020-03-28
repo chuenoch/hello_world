@@ -47,5 +47,10 @@ header
 {
     float: left;
     color: white;
- 
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
 }
