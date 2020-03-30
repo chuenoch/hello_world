@@ -83,9 +83,9 @@ h3 {
     color: white;
     margin-top: 10px;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    animation: drop 4s ease;
+    animation: drop 3s ease;
 }
 
 @keyframes drop
@@ -142,6 +142,30 @@ h3 {
     font-size: 60px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     animation: drop 1.5s ease;
+}
+
+.mm {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.mm img{
+    max-height: 400px;
+    max-width: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+    filter: brightness(50%);
+}
+
+.mm h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
