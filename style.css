@@ -85,7 +85,7 @@ h3 {
     text-align: center;
     font-size: 60px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    animation: drop 1.5s ease;
+    animation: drop 4s ease;
 }
 
 @keyframes drop
@@ -110,22 +110,23 @@ h3 {
     max-height: 300px;
     max-width: 300px;
     border-radius: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     margin-left: 50px;
 }
 
 .bio {
     color: #5c5c5c;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    margin-top: 50px;
-    margin-left: 200px;
-    max-width: 50px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    max-width: 400px;
     
 }
 
 .projects {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(solder.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(solder.jpg);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
