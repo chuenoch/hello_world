@@ -102,11 +102,26 @@ h3 {
     }
 }
 
+.about{
+    display: flex;
+}
+
+.about .img1 img{
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
 .bio {
     color: #5c5c5c;
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 200px;
+    max-width: 50px;
+    
 }
 
 .projects {
@@ -116,6 +131,8 @@ h3 {
     background-attachment: fixed;
     background-position: 50% 70%;
 }
+
+
 
 
 
