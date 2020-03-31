@@ -158,27 +158,43 @@ h3 {
     max-width: 600px;
     margin-top: 30px;
     margin-left: 30px;
-    filter: brightness(50%);
-}
-
-.mm_img h1 {
-    color: white;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 1;
+    
     
 }
 
-.mm_img:hover h1 {
-    transition: 0.2s;
-    opacity: 0;
+.mm:hover .mm_img img{
+    transition: 0.8s;
+    filter: brightness(30%);
 }
 
 
+.mm_hover {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    opacity: 0;
+   
+}
 
+.mm_hover h1{
+    font-size: 30px;
+}
+
+.mm_hover p{
+    font-size: 16px;
+    margin-top: 10px;
+    
+    
+}
+
+.mm:hover .mm_hover{
+    transition: 0.8s;
+    opacity: 1;
+}
 
 
 
