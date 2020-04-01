@@ -150,7 +150,7 @@ h3 {
     color: white;
     float: left;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-bottom: 20px;
 }
 
@@ -172,13 +172,12 @@ h3 {
 .mm_hover {
     color: white;
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    max-width: 440px;
     text-align: center;
+    top: 10%;
+    left: 8%;
     opacity: 0;
-   
+    /*transform: translate(-50%, -50%);*/
 }
 
 .mm_hover h1{
@@ -197,7 +196,52 @@ h3 {
     opacity: 1;
 }
 
+.esk8 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: right;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
 
+.esk8_img img {
+    max-height: 400px;
+    max-width: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.esk8:hover .esk8_img img {
+    transition: 0.6s;
+    filter: brightness(30%);
+}
+
+.esk8_hover {
+    color: white;
+    position: absolute;
+    max-width: 440px;
+    text-align: center;
+    top: 10%;
+    left: 8%;
+    opacity: 0;
+    /*transform: translate(-50%, -50%);*/
+}
+
+.esk8_hover h1 {
+    font-size: 30px;
+}
+
+.esk8_hover p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.esk8:hover .esk8_hover {
+    transition: 0.6s;
+    opacity: 1;
+}
 
 
 
