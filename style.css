@@ -37,7 +37,7 @@ header {
     color: white;
     text-decoration: none;
     padding: 5px 20px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    
     font-size: 15px;
 }
 
@@ -75,7 +75,7 @@ h2 {
     margin-top: 200px;
     text-align: center;
     font-size: 60px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    
     animation: drop 1.5s ease;
 }
 
@@ -84,7 +84,7 @@ h3 {
     margin-top: 10px;
     text-align: center;
     font-size: 30px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    
     animation: drop 3s ease;
 }
 
@@ -117,7 +117,7 @@ h3 {
 
 .bio {
     color: #5c5c5c;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    
     margin-top: 150px;
     margin-left: 100px;
     margin-bottom: 100px;
@@ -140,7 +140,7 @@ h3 {
     position: absolute;
     text-align: center;
     font-size: 60px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    
     animation: drop 1.5s ease;
 }
 
