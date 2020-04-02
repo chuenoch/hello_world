@@ -15,11 +15,11 @@ header {
 
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(IMG_0909.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ucla.jpg);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 50% 70%;
+    background-position: 50% 60%;
 }
 
 
@@ -126,7 +126,7 @@ h3 {
 }
 
 .projects {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(solder.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(IMG_0909.jpg);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -142,6 +142,10 @@ h3 {
     font-size: 60px;
     
     animation: drop 1.5s ease;
+}
+
+.proj_list{
+    margin-top: 80px;
 }
 
 .mm {
