@@ -117,11 +117,12 @@ h3 {
 
 .bio {
     color: #5c5c5c;
-    
-    margin-top: 150px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    max-width: 400px;
+    line-height: 180%;
+    margin-top: 110px; /*150px*/
+    margin-left: 70px;
+    margin-bottom: 100px; /*100px*/
+    max-width: 500px;
+    font-size: 20px;
     
 }
 
@@ -135,11 +136,11 @@ h3 {
 
 .proj_title h5{
     color: white;
-    margin-top: 200px;
-    margin-left: 450px;
+    margin-top: 240px;
+    margin-left: 400px;
     position: absolute;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     
     animation: drop 1.5s ease;
 }
@@ -246,7 +247,7 @@ h3 {
     color: white;
     float: right;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-left: 100px;
     margin-bottom: 20px;
 }
 
