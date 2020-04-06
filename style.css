@@ -107,9 +107,9 @@ h3 {
 }
 
 .about .img1 img{
-    max-height: 300px;
+    max-height: 400px;
     max-width: 300px;
-    border-radius: 50%;
+    border-radius: 20%;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 200px;
@@ -118,11 +118,13 @@ h3 {
 .bio {
     color: #5c5c5c;
     line-height: 180%;
-    margin-top: 110px; /*150px*/
+    margin-top: 110px; 
     margin-left: 70px;
-    margin-bottom: 100px; /*100px*/
-    max-width: 500px;
+    margin-bottom: 100px; 
+    max-width: 510px;
     font-size: 20px;
+    border: 1px solid black;
+    padding: 20px;
     
 }
 
