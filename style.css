@@ -240,6 +240,8 @@ h3 {
 }
 
 
+
+
 .esk8 {
     position: relative;
     text-align: center;
@@ -286,6 +288,104 @@ h3 {
     transition: 0.6s;
     opacity: 1;
 }
+
+.proj_list2{
+    display: flex;
+}
+
+
+.pulse {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.pulse_img img {
+    max-height: 480px;
+    max-width: 480px;
+    margin-top: 30px;
+    
+    
+}
+
+.pulse:hover .pulse_img img {
+    transition: 0.6s;
+    filter: brightness(30%);
+}
+
+.pulse_hover {
+    color: white;
+    position: absolute;
+    max-width: 440px;
+    text-align: center;
+    top: 10%;
+    left: 5%;
+    opacity: 0;
+    /*transform: translate(-50%, -50%);*/
+}
+
+.pulse_hover h1 {
+    font-size: 30px;
+}
+
+.pulse_hover p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.pulse:hover .pulse_hover {
+    transition: 0.6s;
+    opacity: 1;
+}
+
+
+.pulse_buttons {
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.pulse_button1 {
+    border: none;
+    padding: 15px 30px;
+    background-color: white;
+    float: left;
+    margin-left: 100px;
+}
+
+.pulse_button1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.pulse_button2 {
+    border: none;
+    padding: 15px 30px;
+    background-color: white;
+    float: right;
+    margin-left: 30px;
+}
+
+.pulse_button2 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 .skills {
     margin-top: 50px;
