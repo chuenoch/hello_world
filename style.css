@@ -156,7 +156,7 @@ h3 {
     color: white;
     float: left;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 20px;
 }
 
@@ -254,7 +254,7 @@ h3 {
 
 .esk8_img img {
     max-height: 400px;
-    max-width: 600px;
+    max-width: 630px;
     margin-top: 30px;
     margin-left: 30px;
 }
@@ -289,6 +289,44 @@ h3 {
     opacity: 1;
 }
 
+.esk8_buttons {
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.esk8_button1 {
+    border: none;
+    padding: 15px 30px;
+    background-color: white;
+    float: left;
+    margin-left: 100px;
+}
+
+.esk8_button1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.esk8_button2 {
+    border: none;
+    padding: 15px 30px;
+    background-color: white;
+    float: right;
+    margin-left: 30px;
+}
+
+.esk8_button2 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
 .proj_list2{
     display: flex;
 }
@@ -300,14 +338,14 @@ h3 {
     color: white;
     float: left;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-bottom: 20px;
 }
 
 .pulse_img img {
-    max-height: 480px;
+    max-height: 430px;
     max-width: 480px;
-    margin-top: 30px;
+    margin-top: 20px;
     
     
 }
@@ -378,6 +416,86 @@ h3 {
 }
 
 
+.ap {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: right;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.ap_img img {
+    max-height: 480px;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.ap:hover .ap_img img {
+    transition: 0.6s;
+    filter: brightness(30%);
+}
+
+.ap_hover {
+    color: white;
+    position: absolute;
+    max-width: 440px;
+    text-align: center;
+    top: 10%;
+    left: 8%;
+    opacity: 0;
+    /*transform: translate(-50%, -50%);*/
+}
+
+.ap_hover h1 {
+    font-size: 30px;
+}
+
+.ap_hover p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.ap:hover .ap_hover {
+    transition: 0.6s;
+    opacity: 1;
+}
+
+.ap_buttons {
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.ap_button1 {
+    border: none;
+    padding: 15px 30px;
+    background-color: white;
+    float: left;
+    margin-left: 100px;
+}
+
+.ap_button1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.ap_button2 {
+    border: none;
+    padding: 15px 30px;
+    background-color: white;
+    float: right;
+    margin-left: 30px;
+}
+
+.ap_button2 a {
+    color: black;
+    text-decoration: none;
+}
 
 
 
