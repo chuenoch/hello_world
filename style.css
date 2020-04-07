@@ -118,14 +118,11 @@ h3 {
 .bio {
     color: #5c5c5c;
     line-height: 180%;
-    margin-top: 110px; 
+    margin-top: 130px; 
     margin-left: 70px;
     margin-bottom: 100px; 
     max-width: 510px;
-    font-size: 20px;
-    border: 1px solid black;
-    padding: 20px;
-    
+    text-align: left;
 }
 
 .projects {
