@@ -329,6 +329,7 @@ h3 {
 
 .proj_list2{
     display: flex;
+    margin-bottom: 100px;
 }
 
 
@@ -524,9 +525,63 @@ h3 {
     animation: drop 1.5s ease;
 }
 
+.skills_list li{
+    position: relative;
+    list-style: none;
+    margin: 50px 0;
+    margin-left: 110px;
+    
+
+}
+
+.skills_list li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 35%;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 1000px;
+}
+
+.skills_list li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: lightseagreen;
+    border-radius: 1000px;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
 
 
 
+
+.skills_list li.eagle:after{
+    animation-name: eagle;
+}
+
+@keyframes eagle{
+    to{
+        width: 32%;
+    }
+}
+
+.skills_list li.arduino:after {
+    animation-name: arduino;
+}
+
+@keyframes arduino {
+    to {
+        width: 35%;
+    }
+}
 
 
 
